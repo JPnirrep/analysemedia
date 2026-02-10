@@ -10,7 +10,7 @@ Système multi-agents intelligent dédié à l'analyse approfondie de contenus m
 
 Le projet repose sur une orchestration granulaire définie dans `.agent/rules/` :
 
-1. **Supervisor** (`supervisor.md`) : Le chef d'orchestre. Il trie les fichiers, délègue les tâches et assemble la synthèse finale.
+1. **Supervisor** (`supervisor.md`) : Le chef d'orchestre. Il explore l'arborescence en profondeur (récursivité complète), trie les fichiers, délègue les tâches et assemble la synthèse finale.
 2. **PDFAgent** (`pdf_agent.md`) : Expert en extraction de texte et de structure depuis des documents PDF.
 3. **AudioVideoAgent** (`audio_video_agent.md`) : Responsable de la transcription (STT) et du chapitrage temporel.
 4. **ImagesAgent** (`images_agent.md`) : Spécialiste de l'OCR visuel et de l'interprétation de schémas.
